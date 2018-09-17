@@ -4,7 +4,7 @@ import './App.css';
 import Logo from './Logo';
 import Navigation from './Navigation';
 import UserProfile from './UserProfile';
-
+import Search from './Search';
 class App extends Component {
   render() {
     return (
@@ -19,6 +19,7 @@ class App extends Component {
         <Logo />
         <Navigation />
         <UserProfile />
+        <Search />
       </div>
     );
   }
