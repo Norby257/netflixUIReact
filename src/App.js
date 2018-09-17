@@ -3,6 +3,7 @@ import logo from './logo.svg';
 import './App.css';
 import Logo from './Logo';
 import Navigation from './Navigation';
+import UserProfile from './UserProfile';
 
 class App extends Component {
   render() {
@@ -17,6 +18,7 @@ class App extends Component {
         </p>
         <Logo />
         <Navigation />
+        <UserProfile />
       </div>
     );
   }
