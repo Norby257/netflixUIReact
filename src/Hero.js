@@ -1,5 +1,5 @@
 import React from 'react'
-
+import HeroButton from './HeroButton';
 
 export default class Hero extends React.Component {
     render() {
@@ -10,8 +10,8 @@ export default class Hero extends React.Component {
               <h2>All Seasons now available</h2>
               <p>The Truth is out there. Experience the gripping show of the 90's, trailbalzer to other science-fiction, political dramas.</p>
               <div className="button-wrapper">
-                {/* <HeroButton primary={true} text="Watch now" />
-                <HeroButton primary={false} text="+ My list" /> */}
+               {/* <HeroButton primary={true} text ="Watch now" />
+               <HeroButton primary={false} text="+My List" /> */}
               </div>
             </div>
             <div className="overlay"></div>
