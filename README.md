@@ -13,7 +13,8 @@ This is a React app that is modeled after the Netflix UI.
  To enjoy this project, simply clone the repo and run `npm install`  followed by `npm start`.
 
 
-![Landing Page] (/images/final_landing_screen.png)
+# Landing Page 
+![Landing Page](/images/final_landing_screen.png)
 
 
 
