@@ -13,7 +13,7 @@ export default class TitleList extends React.Component {
   }
 
   loadContent = () => {
-    var requestUrl = `https://api.themoviedb.org/3/${this.props.url}&api_key${
+    var requestUrl = `https://api.themoviedb.org/3/${this.props.url}&api_key=${
       this.state.APIkey
     }`
     fetch(requestUrl)
