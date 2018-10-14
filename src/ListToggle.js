@@ -1,11 +1,7 @@
-import React, {Component} from 'react'
+import React from 'react'
 
 export default class ListToggle extends React.Component {
-    constructor(props) {
-        super(props); 
-
-    }
-
+  
     state = {
         toggled: false
     }
