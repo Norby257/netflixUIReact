@@ -46,8 +46,8 @@ class App extends Component {
         <TitleList title="Top TV picks for Norby" url='discover/tv?sort_by=popularity.desc&page=1' />
         <TitleList title="Trending now" url='discover/movie?sort_by=popularity.desc&page=1' />
         <TitleList title="Captivating Dramas " url='genre/18/movies?sort_by=popularity.desc&page=1' />
-        <TitleList title="Sci-Fi greats" url='genre/878/movies?sort_by=popularity.desc&page=1' />
-        <TitleList title="Comedy magic" url='genre/35/movies?sort_by=popularity.desc&page=1' />
+        <TitleList title="Crime and Action Dramas" url='genre/80-crime/movies?sort_by=popularity.desc&page=1' />
+        <TitleList title="Because you watched Harry Potter" url='genre/14-fantasy/movies?sort_by=popularity.desc&page=1' />
       </div>
     );
   }
