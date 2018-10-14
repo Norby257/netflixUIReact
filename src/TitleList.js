@@ -1,10 +1,8 @@
-import React, { Component } from "react"
+import React from "react"
 import Item from "./Item"
 export default class TitleList extends React.Component {
 
-  constructor(props) {
-    super(props)
-  }
+ 
 
   state = {
     data: [],

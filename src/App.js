@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import logo from './logo.svg';
 import './App.css';
 import Logo from './Logo';
 import Navigation from './Navigation';
@@ -8,9 +7,7 @@ import Search from './Search';
 import Hero from './Hero';
 import TitleList from './TitleList';
 class App extends Component {
-  constructor(props) {
-    super(props);
-  }
+ 
   state = {
     searchTerm: "",
     searchURL: "",
@@ -48,7 +45,7 @@ class App extends Component {
         <TitleList title="Search Results" url={this.state.searchUrl} />
         <TitleList title="Top TV picks for Norby" url='discover/tv?sort_by=popularity.desc&page=1' />
         <TitleList title="Trending now" url='discover/movie?sort_by=popularity.desc&page=1' />
-        <TitleList title="Most watched in Horror" url='genre/27/movies?sort_by=popularity.desc&page=1' />
+        <TitleList title="Captivating Dramas " url='genre/18/movies?sort_by=popularity.desc&page=1' />
         <TitleList title="Sci-Fi greats" url='genre/878/movies?sort_by=popularity.desc&page=1' />
         <TitleList title="Comedy magic" url='genre/35/movies?sort_by=popularity.desc&page=1' />
       </div>
