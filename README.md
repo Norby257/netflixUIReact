@@ -13,6 +13,8 @@ This is a React app that is modeled after the Netflix UI.
 
  To enjoy this project, simply clone the repo and run `npm install`  followed by `npm start`.
 
+ To view this on a remote server hosted on Heroku, click here [here](https://fast-woodland-97467.herokuapp.com/).
+
 
 # Landing Page 
 ![Landing Page](/images/final_landing_screen.png)
