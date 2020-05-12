@@ -6,12 +6,15 @@ import UserProfile from './UserProfile';
 import Search from './Search';
 import Hero from './Hero';
 import TitleList from './TitleList';
+
+
 class App extends Component {
  
   state = {
     searchTerm: "",
     searchURL: "",
-    APIkey: '1589b4248d33d003fc0d0978cc22d66f'
+    //APIkey: '1589b4248d33d003fc0d0978cc22d66f'
+    APIkey: process.env.REACT_APP_NETFLIX_REACT_UI_API_KEY
     
     
   }
