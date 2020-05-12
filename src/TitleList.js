@@ -2,12 +2,10 @@ import React from "react"
 import Item from "./Item"
 export default class TitleList extends React.Component {
 
- 
-
   state = {
     data: [],
-    mounted: false,
-    APIkey: "1589b4248d33d003fc0d0978cc22d66f"
+    mounted: false,    
+    APIkey : process.env.REACT_APP_NETFLIX_REACT_UI_API_KEY
   }
 
   loadContent = () => {
