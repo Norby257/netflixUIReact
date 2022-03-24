@@ -9,7 +9,7 @@
     "kind-of": "6.0.3",
     "lodash": "^4.7.12",
     "mem": "4.0.0",
-    "minimist": "1.2.3",
+    "minimist": "1.2.6",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
     "react-scripts": "1.1.5",
